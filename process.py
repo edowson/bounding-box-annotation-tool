@@ -9,7 +9,6 @@ IMAGE_FORMAT    = 'jpg'				# Image Format of your data [jpg / png / jpeg]
 # ============================== Config ========================================
 
 
-
 def process():
 	# Create and/or truncate train.txt and test.txt
 	file_train = open('train.txt', 'w')
@@ -31,9 +30,10 @@ def process():
 			counter = counter + 1
 
 	if not filesPresent:
-		print "No Files Present in the Directory : ", DATA_PATH
+		print("No Files Present in the Directory : ", DATA_PATH)
 
 	return
+
 
 if __name__ == "__main__":
 	process()
