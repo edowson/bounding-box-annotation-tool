@@ -106,3 +106,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# media
+video/
+
+# folders
+output*/
+
+# Operating system files
+.DS_Store
+Thumbs.db
